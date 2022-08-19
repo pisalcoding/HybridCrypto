@@ -8,9 +8,9 @@
 import Foundation
 
 public struct AESResult : Codable {
-    let salt: String
-    let iv: String
-    let encodedData: String
+    public let salt: String
+    public let iv: String
+    public let encodedData: String
     
     enum CodingKeys: String, CodingKey {
         case salt

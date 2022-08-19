@@ -86,15 +86,15 @@ public  struct Configuration {
     var aesKeyIterationCount: Int
     var rsaPadding: SwiftyPadding
     
-    static let defaultCofig = Configuration(
+    public static let defaultCofig = Configuration(
         aesKeySize: DEFAULT_AES_KEY_SIZE,
         aesMode: DEFAULT_AES_MODE,
         aesKeyIterationCount: DEFAULT_AES_KEY_ITERATION_COUNT,
         rsaPadding: DEFAULT_RSA_PADDING
     )
     
-    static let DEFAULT_AES_KEY_SIZE = 16 // Bytes
-    static let DEFAULT_AES_KEY_ITERATION_COUNT = 100 // Rounds
-    static let DEFAULT_RSA_PADDING = SwiftyPadding.PKCS1
-    static let DEFAULT_AES_MODE = "AES/CBC/PKCS7Padding"
+    public static let DEFAULT_AES_KEY_SIZE = 16 // Bytes
+    public static let DEFAULT_AES_KEY_ITERATION_COUNT = 100 // Rounds
+    public static let DEFAULT_RSA_PADDING = SwiftyPadding.PKCS1
+    public static let DEFAULT_AES_MODE = "AES/CBC/PKCS7Padding"
 }

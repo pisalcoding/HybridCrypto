@@ -9,22 +9,22 @@ import Foundation
 
 public struct HttpFriendlyResult : Codable {
     /// RSA-encrypted AES password of request body
-    let requestPassword: String
+    public let requestPassword: String
 
     /// IV that was used while encrypting the raw data
-    let iv: String
+    public let iv: String
     
     /// salt that was used while encrypting the raw data
-    let salt: String
+    public let salt: String
 
     /// RSA-encrypted AES password for peer/server to encrypt the response
-    let responsePassword: String
+    public let responsePassword: String
 
     /// AES-encrypted data
-    let encryptedData: String
+    public let encryptedData: String
 
     /// RSA-encrypted SHA512 hash of the raw data
-    let signature: String
+    public let signature: String
     
     enum CodingKeys: String, CodingKey {
         case requestPassword

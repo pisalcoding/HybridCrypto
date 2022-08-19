@@ -12,12 +12,12 @@ public struct HybridCipherResult : Codable {
     /**
      * Should be saved for decrypting the encrypted response from server
      */
-    let rawResponsePassword: String
+    public let rawResponsePassword: String
     
     /**
      * Suitable for sending to server via REST API
      */
-    let httpParams: HttpFriendlyResult
+    public let httpParams: HttpFriendlyResult
     
     enum CodingKeys: String, CodingKey {
         case rawResponsePassword

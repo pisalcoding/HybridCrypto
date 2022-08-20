@@ -1,4 +1,4 @@
-# HybridCrypto
+# SwiftHybridCrypto
 
 HybridCrypto is simple implementation of hybrid cryptography following recommendations by  [OWASP](https://mobile-security.gitbook.io/mobile-security-testing-guide/general-mobile-app-testing-guide/0x04g-testing-cryptography).
 

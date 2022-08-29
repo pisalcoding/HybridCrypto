@@ -6,7 +6,7 @@ HybridCrypto is simple implementation of hybrid cryptography following recommend
 
 > Step 1: Add this package to our Swift project via Swift Package Manager (SPM)
 ```java
-https://github.com/UTNGYPisal/SwiftHybridCrypto
+https://github.com/UTNGYPisal/HybridCrypto
 
 ```
 > Step 2: Import package to classes you need to work with encryption

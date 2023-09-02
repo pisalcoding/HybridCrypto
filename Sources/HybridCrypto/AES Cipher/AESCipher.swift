@@ -1,11 +1,3 @@
-//
-//  AESCipher.swift
-//  MobileBanking
-//
-//  Created by Pisal on 6/22/22.
-//  Copyright © 2022 WB Finance. All rights reserved.
-//
-
 import Foundation
 import CommonCrypto
 
